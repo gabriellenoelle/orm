@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const res = require("express/lib/response");
 const { Product, Category, Tag, ProductTag } = require("../../models");
 const sequelize = require("../../config/connection");
 
