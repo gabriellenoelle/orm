@@ -35,7 +35,6 @@ router.get("/:id", (req, res) => {
           model: Product,
           attributes: ["id", "product_name", "price", "stock", "category_id"],
         },
-        // Note: Should I add Tag model here too?
       ],
     },
   })
