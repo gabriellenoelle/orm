@@ -1,7 +1,7 @@
 const express = require("express");
-const routes = require("./routes");
+const routes = require("./fantastic-umbrella-main/Develop/routes");
 // import sequelize connection
-const sequelize = require("./config/connection");
+const sequelize = require("./fantastic-umbrella-main/Develop/config/connection");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
